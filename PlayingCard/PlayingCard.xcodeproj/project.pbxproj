@@ -17,6 +17,7 @@
 		3B2D5E9220B30A48009CBE47 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D5E9120B30A48009CBE47 /* PlayingCardView.swift */; };
 		3B2D5E9620B5768C009CBE47 /* NewPlayingCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D5E9520B5768C009CBE47 /* NewPlayingCardViewController.swift */; };
 		3B2D5E9A20B5909D009CBE47 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D5E9920B5909D009CBE47 /* CardBehavior.swift */; };
+		3B39A2FD20C4DF260052ECFE /* CMMotionManager+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39A2FC20C4DF260052ECFE /* CMMotionManager+shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3B2D5E9120B30A48009CBE47 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		3B2D5E9520B5768C009CBE47 /* NewPlayingCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlayingCardViewController.swift; sourceTree = "<group>"; };
 		3B2D5E9920B5909D009CBE47 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		3B39A2FC20C4DF260052ECFE /* CMMotionManager+shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMMotionManager+shared.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				3B2D5E8E20AB1E7F009CBE47 /* PlayingCardDeck.swift */,
 				3B2D5E9120B30A48009CBE47 /* PlayingCardView.swift */,
 				3B2D5E9920B5909D009CBE47 /* CardBehavior.swift */,
+				3B39A2FC20C4DF260052ECFE /* CMMotionManager+shared.swift */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -114,7 +117,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Sonali Patel";
 				TargetAttributes = {
 					3B2D5E7320AB1943009CBE47 = {
@@ -161,6 +164,7 @@
 			files = (
 				3B2D5E9620B5768C009CBE47 /* NewPlayingCardViewController.swift in Sources */,
 				3B2D5E7A20AB1943009CBE47 /* ViewController.swift in Sources */,
+				3B39A2FD20C4DF260052ECFE /* CMMotionManager+shared.swift in Sources */,
 				3B2D5E7820AB1943009CBE47 /* AppDelegate.swift in Sources */,
 				3B2D5E8F20AB1E7F009CBE47 /* PlayingCardDeck.swift in Sources */,
 				3B2D5E9220B30A48009CBE47 /* PlayingCardView.swift in Sources */,
@@ -205,6 +209,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -212,6 +217,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,6 +268,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -269,6 +276,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
